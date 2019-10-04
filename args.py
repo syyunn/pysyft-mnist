@@ -1,0 +1,9 @@
+batch_size = 64
+test_batch_size = 64
+epochs = 20
+lr = 0.02
+seed = 1
+log_interval = 1
+precision_fractional = 3
+n_train_items = 640
+n_test_items = 640
