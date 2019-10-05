@@ -128,8 +128,9 @@ def train(args, model, private_train_loader, optimizer, epoch):
         start_time = time.time()
 
         optimizer.zero_grad()
-
+        print(data)
         output = model(data)
+        print(output)
 
         # loss = F.nll_loss(output, target)  <-- not possible here
         batch_size = output.shape[0]
